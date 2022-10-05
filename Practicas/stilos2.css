@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+.header {
+    margin-bottom: 10%;
+}
 .body{
     display: flex;
     align-items: center;
@@ -16,7 +19,6 @@
     min-height: 100vh;
 }
 
-
 .mifoto{
     border-radius: 50%;
     width: 80%;
@@ -26,10 +28,7 @@
 .mifoto:hover{
     filter: grayscale(0%);
     transition: all 0.6s ease;
-
 }
-
-
 
 .article{
     letter-spacing: 1.5px;
@@ -37,7 +36,7 @@
 }
 
 .main{
-    background-color: hsla(225, 18%, 87%, 0.288);
+    background-color: hsla(225, 18%, 87%, 0.404);
     padding: 130px;
     border-radius: 25%;
     display: flex;
@@ -45,8 +44,6 @@
     gap: 1rem;
     
 }
-
-
 
 footer{
     display: flex;
