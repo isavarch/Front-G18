@@ -1,0 +1,22 @@
+h1, .talumnos, .ejtablas{
+    color:rgb(40, 101, 158) ;
+}
+
+
+table{
+    border: 5px solid rgba(0, 68, 73, 0.445);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid rgba(0, 68, 73, 0.445);
+}
+
+table{
+    background-color: rgba(168, 154, 189, 0.486);
+}
+
+th{
+    background-color: rgba(180, 222, 241, 0.829);
+}

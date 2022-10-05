@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    align-items: center;
+    text-align: center;
+}
+
+.mipagina{
+    background: url("./src/fondoblanco.jpg");    
+}
+
+.mifoto{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 25%; 
+    opacity: .5;
+}
+
+h3{
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+}
