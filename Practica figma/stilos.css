@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    font-style: normal;
+}
+
+header{
+    background: #00AF1C;
+    padding: 25px;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+
+}
+
+header ul li{
+    margin-right: 10px;
+    font-size: 0.90rem;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+section{
+    width: 95%;
+    margin: 30px auto;
+}
+
+section.home h1 {
+    color: #3B06D2;
+}
+
+p{
+    line-height: 26px;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+section div{
+    margin-top: 30px;
+}
+
+img{
+    margin-right: 30px;
+}
+
+section.servicios h1{
+    color: #D206B2;
+}
+
+section.servicios ul{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    margin-left: 50px;
+}
+
+section.servicios ul li.uno{
+    color: #FF0000;
+}
+section.servicios ul li.dos{
+    color: #1400FF;
+}
+section.servicios ul li.tres{
+    color: #D79B00;
+}
+section.servicios ul li.cuatro{
+    color: #03B2B2;
+}
+
+section.portafolio h1{
+    color: #AAD206;
+}
+
+section.portafolio ul{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+    margin-left: 50px;
+}
+
+section.portafolio ul li.uno{
+    color: #AE8800;
+}
+section.portafolio ul li.dos{
+    color: #AE280B;
+}
+section.portafolio ul li.tres{
+    color: #060564;
+}
+section.portafolio ul li.cuatro{
+    color: #637300;
+}
+
+section.contacto h1{
+    color: #06D2C6;
+}
+
+input.namebox, textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 38px;
+}
+
+input.namebox{
+    margin-top: 25px;
+}
+
+
+.send{
+    border: 1px solid #22A900;
+    padding: 22px 50px 22px 50px;
+    background-color: transparent;
+    color: #22A900;
+}
+
+footer{ 
+    background-color: #00AF1C;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
