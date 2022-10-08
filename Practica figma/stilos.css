@@ -9,6 +9,10 @@ header{
     background: #00AF1C;
     padding: 25px;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    
 }
 
 nav{
@@ -41,6 +45,7 @@ section{
 
 section.home h1 {
     color: #3B06D2;
+    margin-top: 100px;
 }
 
 p{
