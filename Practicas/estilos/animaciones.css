@@ -1,0 +1,113 @@
+.texto-animado{
+    animation-name: texto-volador;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    border: solid;
+}
+
+@keyframes texto-volador{
+    from{
+        margin-left: 100%;
+        width: 350px;
+        background-color: #b9a68a;
+        border: none;
+    }
+    to{
+        margin-left: -100%;
+        background-color: #7f093f;
+        color: #434a16;
+    }
+}
+
+.image-animada{
+    animation-name: image-resize;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes image-resize{
+    from{
+        width: 200px;
+        height: 100px;
+    }
+    to{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+.box-1{
+    height: 50px;
+    width: 50px;
+    background-color: #984900;
+    animation-name: box-animation;
+  
+}
+
+@keyframes box-animation{
+    0%{
+        background-color: #ba8f2a;
+    }
+    25%{
+        background-color: #b9a68a;
+    }
+    50%{
+        background-color: #f0213b;
+    }
+    100%{
+        background-color: #7f093f;
+    }
+}
+
+.ball-uno{
+    height: 100px;
+    width: 100px;
+    background-color: #434a16;
+    border-radius: 50%;
+    animation-name: ball-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ball-animation{
+    from{
+     transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-400px);
+    }
+}
+
+.lineas{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 24px;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+.escribe-solo{
+    animation: texto-animado-dos 5s steps(144) 1s normal both,
+    cursor 0.5s steps(50) infinite normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes texto-animado-dos{
+    from{
+        width: 0;
+    }
+    to{
+        width: 600px;
+    }
+}
+
+@keyframes cursor{
+    from{
+        border-right-color: red;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}

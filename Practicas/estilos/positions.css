@@ -1,18 +1,26 @@
 .cuadrado{
     background-color: aquamarine;
-    width: 100%;
+    width: 30px;
     height: 30px;
-    position: fixed;
-    top: 0%;
-
+    margin-bottom: 50px;
+    position: relative;
+   
 }
 
-.circulo{
+/* .circulo{
     background-color: rgb(4, 47, 54);
     border-radius: 50%;
     height: 500px;
     width: 500px;
+    margin-top: 50px;
+   
+} */
+
+.container{
+    border: 10px solid rebeccapurple;
+    width: 50%;
+    height: 50%;
     position: absolute;
-    margin-top: 100px;
+    left: 200px;
 }
 
