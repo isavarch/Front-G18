@@ -1,0 +1,11 @@
+.gradiente-uno{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(
+        360deg,
+        rgb(75, 107, 196),
+        rgb(212, 111, 179)
+    );
+    color: azure;
+}
+

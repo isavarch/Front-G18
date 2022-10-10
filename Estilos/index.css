@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #0f131f;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+    
+
+.secciones{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+li{
+    margin: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #d48d99;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.fotobox{
+    align-items: center;
+    text-align: center;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 100%;
+    filter: grayscale(100%)
+    
+}
+
+.filtro {
+    border-radius: 50%;
+    width: 80%;
+    background: #0f131f;
+    z-index: 1;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
+.filtro:hover {
+    opacity: 1;
+    transition: all .6s;
+}
+
+ .foto:hover{
+    filter: grayscale(0%);
+}
+
+.piedefoto{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title, .cv-bton{
+    margin: 10px;
+}
+
+.title{
+    color: #d48d99;
+    
+}
+
+.cv-bton{
+    width: 150px;
+    background-color: #949fb1;
+    color: #5a6882;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 15px 25px #80788d;
+}
+
+.cv-bton:hover{
+    background-color: #5a6882;
+    color: #949fb1;
+    font-weight: bold;
+    transition: all ;
+ }
+
+ .resumen{
+    color: #d48d99;
+    margin-top: 70px;
+}
