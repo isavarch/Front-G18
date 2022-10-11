@@ -75,3 +75,25 @@ footer{
 .icon-link{
     width:100%
 }
+
+@media only screen and (max-width :480px){
+
+    .header {
+        margin-bottom: 5%;
+    }
+
+    .body{
+        color: #d48d99;
+        text-align: center;
+        background-color: #5a6882;      
+        
+    }
+    .mifoto{
+        width: 60%;
+    }
+
+    .icon{
+        display: flex;
+        max-width: 1rem;
+
+}
