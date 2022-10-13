@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px;
+}
+
+.container div{
+    background: goldenrod;
+    padding: 1em;
+}
+
+.container div:hover{
+    border: 1px solid brown;
+}
+
+.item1{
+    grid-column: 1/3;
+}
