@@ -221,7 +221,7 @@ footer {
 
 .box-content {
     margin-top: 100px;
-    display: block;
+    /* display: block; */
 }
 
 .floatbox {
@@ -250,7 +250,3 @@ footer {
     font-weight: bold;
     box-shadow: 0 3px 15px 4px #d3d3d3;
 }
-
-
-
-
