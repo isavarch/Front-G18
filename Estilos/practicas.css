@@ -1,22 +1,265 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+*, html {
+    box-sizing: border-box;
+    }
 
 body{
-    background-color: #d48d99;
+    background-color: #fbe0d9;
 }
 
-ul{
+/* HEADER */
+header {
+    height: 5%;
+    text-align: center;
+    color: #8e929b;
+    align-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+/* MAIN */
+
+main {
     display: flex;
+    margin: 2% 5%; 
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    background-color: rgba(218, 223, 216, 0.26);
+    border-radius: 20px;
+    gap: 20px;
+    align-items: stretch;
+    justify-items: center;
+    align-content: space-between;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 20px 0;
+    
+}
+
+section a {
+    text-decoration: none;
+}
+
+section div {
+    display: flex;
+    padding: 10px 10px;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    list-style: none;
-       
+    border-radius: 20px;
+    box-shadow: #e9b191a9 0px 5px 15px;
+
+    
+    
+}
+
+section div h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #dce1da;
+    font-size: 25px;
+}
+
+section div p {
+    color: #dce1da;
+    font-size: 15px;
 }
 
 
-img{
-    border-radius: 8px;
-    
 
+/* BOXES */
+
+.prac1 {
+    background-color: #ecb7b3;
+
+}
+
+.prac1:hover {
+    background: url(/gallery/figma-preview.png);
+    background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
+
+}
+
+.prac1:hover h4, .prac1:hover p {
+    visibility: hidden;
+}
+
+/* 2 */
+
+.prac2 {
+    background-color: #8e929b;
+}
+
+.prac2:hover {
+    background: url(/gallery/nftCard-preview.png);
+    background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
+    
+}
+
+.prac2:hover h4, .prac2:hover p {
+    visibility: hidden;
+}
+
+/* 3 */
+
+.prac3 {
+    background-color: #a4b8ac;
+}
+
+.prac3:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
+}
+
+.prac3:hover h4, .prac3:hover p {
+    visibility: hidden;
+    transform: scale(1.04);
+    transition: all .3s;
+}
+
+/* 4 */
+
+.prac4 {
+    background-color: #fbf9d9;
+}
+
+.prac4:hover {
+    background: url(/gallery/LandingReto4-preview.png);
+    background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
+}
+
+.prac4:hover h4, .prac4:hover p {
+    visibility: hidden;
+}
+
+/* 5 */
+
+.prac5 {
+    background-color: #a4b8ac;
+}
+
+.prac5:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac5:hover h4, .prac5:hover p {
+    visibility: hidden;
+}
+
+/* 6 */
+
+.prac6 {
+    background-color: #fbf9d9;
+}
+
+.prac6:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac6:hover h4, .prac6:hover p {
+    visibility: hidden;
+}
+
+/* 7 */
+
+.prac7 {
+    background-color: #ecb7b3;
+}
+
+.prac7:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac7:hover h4, .prac7:hover p {
+    visibility: hidden;
+}
+
+/* 8 */
+
+.prac8 {
+    background-color: #8e929b;
+}
+
+.prac8:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac8:hover h4, .prac8:hover p {
+    visibility: hidden;
+}
+
+/* 9 */
+
+.prac9 {
+    background-color: #8e929b;
+}
+
+.prac9:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac9:hover h4, .prac9:hover p {
+    visibility: hidden;
+}
+
+/* 10 */
+
+.prac10 {
+    background-color: #a4b8ac;
+}
+
+.prac10:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac10:hover h4, .prac10:hover p {
+    visibility: hidden;
+}
+
+/* 11 */
+
+.prac11 {
+    background-color: #fbf9d9;
+}
+
+.prac11:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac11:hover h4, .prac11:hover p {
+    visibility: hidden;
+}
+
+/*  */
+
+.prac12 {
+    background-color: #ecb7b3;
+}
+
+.prac12:hover {
+    background: url(/gallery/figma3-preview.png);
+    background-size: cover;
+}
+
+.prac12:hover h4, .prac12:hover p {
+    visibility: hidden;
 }
