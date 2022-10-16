@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px 15% 0 15%;
+}
+
+/* HEADER */
+
+header nav {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+header li, li a {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 500;  
+}
+
+a:hover {
+    color: #00CF95;
+    transition: .3 all;
+}
+
+a.active {
+    color: #832FDA;
+    border-color: #832FDA;
+    border-bottom: 4px solid #6D0AD3;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.cv-box {
+    width: 40%;
+    padding-left: 2rem;
+}
+
+.cv-box h4 {
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.cv-box span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.font-blck {
+    color: #262626;
+    font-size: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.font-grn {
+    color: #00CF95;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.cv-box p {
+    margin-top: 10px;
+    border-left: 3.5px solid #00CF95;
+    padding: 10px 70px 10px 15px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.btn-cv {
+    margin-top: 1rem;
+}
+
+.btn-cv button {
+    padding: 10px 23px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #6D0AD3;
+    color: #fff;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.picture {
+    margin-left: 1rem;
+}
+
+.share-btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+/* BOTON BAJAR */
+.section2 {
+    position: relative;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.section2 a {
+    text-decoration: none;
+    color: #00CF95;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+/* PORTAFOLIO */
+.section3 {
+    margin-top: 8%;
+
+}
+
+.section3 h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0098EF;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.images-box {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+    justify-content: center;
+}
+
+/* SERVICES */
+.section4 {
+    margin-top: 8%;
+}
+
+.section4 h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0098EF;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.grn-bxs {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid;
+}
+
+.grn-bxs div {
+    position: relative;
+    background-color: #00CF95;
+    border: 5px solid #D1FFA2;
+    width: 300px;
+    height: 220px;
+    padding: 20px 0px 20px 30px;
+}
+
+.grn-bxs h3 {
+    background-color: #D1FFA2;
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+    padding: 10px 65px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #D1FFA2;
+    color: #5A0CB0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: right;
+}
+
+.grn-bxs div:hover {
+    border: 5px solid #5A0CB0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    transition: all .3s;
+}
+
+.grn-bxs div:hover h3 {
+    background-color: #5A0CB0;
+    border: 2px solid #5A0CB0;
+    color: #fff;
+    transition: all .3s;
+}
+
+                
+                
+                
+                
