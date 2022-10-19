@@ -1,0 +1,19 @@
+@import url(/Semana4/ClassLessons/css/variables.css);
+@import url(/Semana4/ClassLessons/css/section.css);
+@import url(/Semana4/ClassLessons/css/animation.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+    background-color: var(--primary-theme-color);
+}
+
+
+

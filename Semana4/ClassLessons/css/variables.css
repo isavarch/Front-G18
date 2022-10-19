@@ -1,0 +1,31 @@
+:root {
+    --primary-theme-color: #97d8ae;
+    --secondary-theme-color: #f1e1a6;
+    --primary-text-color: #b97836;
+    --primary-hightlight-color: #c3e5ae;
+    --primary-font-family: 'arial';
+    --padding-section:1.5rem;
+    --padding--container:1rem;
+    --max-width-container:640px;
+    --letter-color-1: #efe6dd;
+    --letter-color-2: #e6b370;
+    --letter-color-3: #f4bbbb;
+    --letter-color-4: #d0947a;
+    --letter-color-5: #e5d5c6;
+    --letter-color-6: #e7b7a0;
+}
+
+
+@media(min-width: 760px) {
+    :root{
+        --padding-section:2rem;
+        --padding-container:0.75rem;
+        --max-width-container:1024px;
+        --primary-theme-color: black;
+        --letter-color-4: #efe6dd;
+        --letter-color-2: #e5d5c6;
+        --letter-color-3: #e7b7a0;
+
+
+    }
+    }
