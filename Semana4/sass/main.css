@@ -1,0 +1,54 @@
+body {
+  background-color: #304a6e;
+}
+
+.cuadrado {
+  width: 300px;
+  height: 300px;
+  background-color: #668dc0;
+}
+
+.body {
+  background-color: #304a6e;
+  color: #c2c6ce;
+}
+
+.succsess {
+  background-color: #0f1c30;
+  padding: 10px;
+  border-radius: 10px;
+  color: #c2c6ce;
+  margin-bottom: 10px;
+}
+
+.info {
+  background-color: #c0d0ef;
+  padding: 10px;
+  border-radius: 10px;
+  color: #0f1c30;
+  margin-bottom: 10px;
+}
+
+.front {
+  background-color: #0f1c30;
+  padding: 10px;
+  border-radius: 10px;
+  color: #c2c6ce;
+  margin-bottom: 10px;
+}
+
+.back {
+  background-color: #c0d0ef;
+  padding: 10px;
+  border-radius: 10px;
+  color: #0f1c30;
+  margin-bottom: 10px;
+}
+
+.full {
+  background-color: #0f1c30;
+  padding: 10px;
+  border-radius: 10px;
+  color: #c2c6ce;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+@mixin title_section {
+    color:$color-blue-2;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+@mixin title_card{
+    font-weight: 700;
+    font-size: 18px;
+    color:$color-blue
+}
+
+@mixin text_card{
+    color:$color-text;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@mixin author{
+    font-weight: 700;
+    color:$color-blue;
+    font-size: 14px;
+}
+
+@mixin icons{
+    display:flex;
+    justify-content: end;
+    gap:15px;
+    align-items: center;
+}

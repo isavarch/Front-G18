@@ -1,0 +1,72 @@
+@import "./variables.scss";
+body {
+    background-color: $color-principal;
+}
+
+.cuadrado {
+    width: 300px;
+    height: 300px;
+    background-color: #668dc0;
+}
+
+.body {
+    background-color: $color-principal;
+    color: #c2c6ce;
+}
+
+//mixin en sass
+//son u tipo de funcion la cual nos permite almacenar más de un solo dato, un codigo y puede reutilizarlo
+//podemos pasarle una varible
+//la idea de pasar un mixin y el color de fondo sea una variable
+//el nombre puede ser cualquiera
+
+@mixin alertita ($bg:#0f1c30,$color-text:#c2c6ce) {
+    background-color: $bg;
+    padding: $padding-1;
+    border-radius: $padding-1;
+    color: $color-text;
+    margin-bottom: $padding-1;
+    
+}
+
+.succsess {
+    //aca en vez de hacer estilos comunes, llamamos al mixin creado
+    
+    @include alertita;
+}
+
+.info {
+    @include alertita($bg:#c0d0ef,$color-text:#0f1c30)
+}
+
+.front {
+    @include alertita ()
+}
+
+.back {
+    @include alertita ($bg:#c0d0ef,$color-text:#0f1c30)
+
+}
+
+.full {
+    @include alertita ()
+    
+
+}
+
+ //los mixin tambien puede retornar una clase directa
+
+
+ @mixin generate-icons($name,$icon,$color,$size) {
+    .div.icon-#{$name} {
+        background-color: url(https://i.postimg.cc/WzG9XJD9/telefono.jpg);
+    }
+ }
+
+ @include generate-icons("phone","telefono.jpg",rgb(252,153,143),400px) {
+    
+ }
+
+ // https://i.postimg.cc/WzG9XJD9/telefono.jpg
+ //https://i.postimg.cc/L6sfy1Zn/email.png
+ // https://i.postimg.cc/wjCmT44m/laptop.jpg

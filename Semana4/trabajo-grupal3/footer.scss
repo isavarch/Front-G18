@@ -1,0 +1,84 @@
+@import "./variables.scss";
+
+
+@mixin footer{
+    background: $bgfooter;
+    font-weight: 300;
+    padding-bottom: 4rem;
+    margin-top: 15rem;
+    color: $textfooter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin logo-main{
+    display: flex;
+    align-items: center;
+}
+
+@mixin logo2 { 
+    margin-left: -1.9rem;       
+} 
+@mixin logo3 { 
+  position: absolute; 
+  margin-left: 1.5rem; 
+  margin-top: 0.6rem; 
+}
+
+
+@mixin content-footer {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin content-text{
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid ;
+}
+
+
+
+@mixin autor {
+    text-align: start;
+    margin-left: 6rem;
+    font-size: 13px;
+}
+
+@mixin col-footer{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+}
+
+@mixin col-footer-p{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin col-footer-p-button {
+    padding-inline: 3.8rem;
+    padding-block: 0.88rem;
+    background-color: $btnfooter; 
+    border: 0;
+    color: $textfooter;
+    margin-top: 2rem;
+    width: 70%;
+}
+
+@mixin col-footer-p-div {
+     width: 380px;
+     font-weight: 100;
+}
+
+@mixin col-footer-div {
+    display: flex;
+    align-items:baseline;
+    gap:15px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+
+@mixin banner {
+    position: relative;
+    background-image: url('https://raw.githubusercontent.com/pechbe/retogrupal-Boostrapp/master/src/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;  
+}
+
+@mixin banner2 {
+    position: absolute;
+    background-image: url('https://raw.githubusercontent.com/pechbe/retogrupal-Boostrapp/master/src/banner2.png');
+    
+    background-size: cover;
+    height: 150px;
+    margin-top: 5%;
+    
+}
+
+@mixin text-banner {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;   
+}

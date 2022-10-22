@@ -1,0 +1,96 @@
+@import "./header.scss";
+@import "./article.scss";
+@import "./footer.scss";
+
+
+//HEADER*******************************
+
+
+.banner {
+    @include banner()
+}
+
+.banner2 {
+    @include banner2 ()
+}
+
+.text-banner {
+    @include text-banner()
+}
+
+//ARTICLE*************************
+
+.title_section {
+    @include title_section()
+}
+
+.title_card {
+    @include title_card()
+}
+
+.text_card {
+    @include text_card()
+}
+
+.author {
+    @include author ()
+}
+
+.icons {
+    @include icons()
+}
+
+
+ .row{
+    align-items: center !important;
+}
+
+// FOOTER*************************
+
+.footer {
+    @include footer()
+}
+
+.logo-main {
+    @include logo-main()
+}
+
+.content-footer  .logo2 {
+    @include logo2()
+}
+
+.content-footer  .logo3 {
+    @include logo3()
+}
+
+.footer  .content-footer {
+    @include content-footer ()
+}
+
+.content-text {
+    @include content-text ()
+}
+
+#autor {
+    @include autor ()
+}
+
+.col-footer {
+    @include col-footer()
+}
+
+.col-footer-p {
+    @include col-footer-p()
+}
+
+.col-footer-p button {
+    @include col-footer-p-button()
+}
+
+.col-footer-p div {
+    @include col-footer-p-div()
+}
+
+.col-footer div {
+    @include col-footer-div()
+}

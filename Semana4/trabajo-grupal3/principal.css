@@ -1,0 +1,137 @@
+.banner {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/pechbe/retogrupal-Boostrapp/master/src/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.banner2 {
+  position: absolute;
+  background-image: url("https://raw.githubusercontent.com/pechbe/retogrupal-Boostrapp/master/src/banner2.png");
+  background-size: cover;
+  height: 150px;
+  margin-top: 5%;
+}
+
+.text-banner {
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.title_section {
+  color: #356EAD;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.title_card {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1F3F68;
+}
+
+.text_card {
+  color: #1f3f68;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.author {
+  font-weight: 700;
+  color: #1F3F68;
+  font-size: 14px;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  align-items: center;
+}
+
+.row {
+  align-items: center !important;
+}
+
+.footer {
+  background: #316099;
+  font-weight: 300;
+  padding-bottom: 4rem;
+  margin-top: 15rem;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-main {
+  display: flex;
+  align-items: center;
+}
+
+.content-footer .logo2 {
+  margin-left: -1.9rem;
+}
+
+.content-footer .logo3 {
+  position: absolute;
+  margin-left: 1.5rem;
+  margin-top: 0.6rem;
+}
+
+.footer .content-footer {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-text {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid;
+}
+
+#autor {
+  text-align: start;
+  margin-left: 6rem;
+  font-size: 13px;
+}
+
+.col-footer {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 2rem;
+}
+
+.col-footer-p {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-footer-p button {
+  padding-inline: 3.8rem;
+  padding-block: 0.88rem;
+  background-color: #5a98d0;
+  border: 0;
+  color: #ffffff;
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.col-footer-p div {
+  width: 380px;
+  font-weight: 100;
+}
+
+.col-footer div {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=principal.css.map */
