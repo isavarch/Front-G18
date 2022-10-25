@@ -153,6 +153,8 @@ section div p {
 .prac5:hover {
     background: url(/gallery/practica5-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac5:hover h4, .prac5:hover p {
@@ -166,8 +168,10 @@ section div p {
 }
 
 .prac6:hover {
-    background: url();
+    background: url(/gallery/comment-section-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac6:hover h4, .prac6:hover p {
@@ -181,8 +185,11 @@ section div p {
 }
 
 .prac7:hover {
-    background: url(/gallery/figma3-preview.png);
+    background: url(/gallery/Reto6-bootstrap.preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
+    
 }
 
 .prac7:hover h4, .prac7:hover p {
@@ -198,6 +205,8 @@ section div p {
 .prac8:hover {
     background: url(/gallery/figma3-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac8:hover h4, .prac8:hover p {
@@ -213,6 +222,8 @@ section div p {
 .prac9:hover {
     background: url(/gallery/figma3-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac9:hover h4, .prac9:hover p {
@@ -228,6 +239,8 @@ section div p {
 .prac10:hover {
     background: url(/gallery/figma3-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac10:hover h4, .prac10:hover p {
@@ -243,6 +256,8 @@ section div p {
 .prac11:hover {
     background: url(/gallery/figma3-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac11:hover h4, .prac11:hover p {
@@ -258,6 +273,8 @@ section div p {
 .prac12:hover {
     background: url(/gallery/figma3-preview.png);
     background-size: cover;
+    transform: scale(1.04);
+    transition: all .3s;
 }
 
 .prac12:hover h4, .prac12:hover p {

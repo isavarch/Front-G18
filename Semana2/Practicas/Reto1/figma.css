@@ -5,11 +5,18 @@
     font-style: normal;
 }
 
+.container {
+    margin: 20px auto;
+    
+    
+}
+
+
 header{
     background: #00AF1C;
-    padding: 25px;
+    padding: 2em;
     color: #fff;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: 0%;
     
