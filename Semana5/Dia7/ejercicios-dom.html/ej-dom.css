@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+    background-color: #fff;
+
+}
+
+.darkContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    background-color: #000;
+
+}
+
+.switch {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(220, 20, 60, 0.623);
+}
+
+.darkButton {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(150, 220, 20, 0.623);
+}
+
+
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 139, 139, 0.637);
+    transform: translateX(7px);
+    transition: .5s;
+}
+
+.darkCircle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgba(48, 12, 53, 0.637);
+    transform: translateX(60px);
+    transition: .5s;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}

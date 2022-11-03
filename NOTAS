@@ -1,23 +1,9 @@
-<ul>
-                <li class="figma1">
-                    <a href="./Semana2/Practicas/figma.html">
-                        <img src="./gallery/figma-preview.png" alt="">
-                    </a>                 
-                </li>
+1.    Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla.
 
-                <li class="nft">
-                    <a href="./Semana2/Practicas/reto2/index.html">
-                        <img src="./gallery/nftCard-preview.png" alt="">
-                    </a>    
-                </li>
-                <li class="figma3">
-                    <a href="./Semana3/practica3.html">
-                        <img src="./gallery/figma3-preview.png" alt="">
-                    </a>    
-                </li>
-                <li class="Practica4">
-                    <a href="./Semana3/LandingReto4.html">
-                        <img src="./gallery/LandingReto4-preview.png" alt="">
-                    </a>    
-                </li>
-            </ul>
+2.    Registrar el ingreso de notas de 4 examenes y calcular el promedio de estos.
+3.    Calcular el área de un rectángulo
+4.    Calcular el área de un triángulo
+5.    Calcular el área de una circunferencia
+6.    Determinar el sueldo semanal de un trabajador basándose en sus horas trabajadas y su salario de hora hombre
+7.    Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en metros. Realice un algoritmo para ayudar a resolver el problema, determinando cuantas pulgadas debe pedir con base en los metros que requiere. (1 pulgada = 0.0254 m).
+8.    Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero peruano.

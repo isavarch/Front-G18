@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./src/green.jpg);
+
+}
+
+button {
+    background-color: #636851;
+    /* height: 4rem;
+    width: 10rem; */
+    border-radius: 20px;
+    border-color: #a3a277;
+    color: #a0b179;
+    font-size: 20px;
+    padding: 20px 50px;
+    font-weight: bold;
+    
+}
+
+
+
