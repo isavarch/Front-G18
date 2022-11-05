@@ -141,3 +141,6 @@ const usuario ={
 const{nombre, apellido, edad, direccion}= usuario;
 
 console.log(apellido)
+
+
+
