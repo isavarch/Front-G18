@@ -94,13 +94,13 @@ function MenuEjercicios(nro_ejercicio){
             break;
 
         case 13:
-            let años_trabajad = parseFloat(prompt("Ingresa los años trabajados"));
-            alert(ej12_sueldo(años_trabajados))
+            let num_alumnos = parseInt(prompt("Ingresa el número de alumnos"));
+            alert(ej13_alumnosNotas(num_alumnos))
             break;
 
         case 14:
-            let años_trabajao = parseFloat(prompt("Ingresa los años trabajados"));
-            alert(ej12_sueldo(años_trabajados))
+            let num_focos = parseInt(prompt("Ingresa el número de focos del lote"));
+            alert(ej14_focos(num_focos))
             break;
 
         case 15:
@@ -224,7 +224,7 @@ function ej11_bonos (yr) {
 }
 
 function ej12_sueldo (sm, st, pc) {
-    if (isNaN(sm) || isNaN(st)) {
+    if (isNaN(sm) || isNaN(st) || isNaN(pc)) {
         return "Por favor ingresa los datos solicitados"
     } else {
         let porcentaje = 0;
@@ -238,12 +238,58 @@ function ej12_sueldo (sm, st, pc) {
 
             salario_final = (Number(sm) + Number(porcentaje)).toFixed(2);
 
-            salarios.push('Salario del año ' + (i + 1) + ': $' + salario_final + '\n');
+            salarios.push("Salario del año " + (i + 1) + ": $" + salario_final + "\n");
 
             sm += porcentaje;
         }
 
-        return 'Los salarios del maestro son: \n\n' + salarios.toString() + '\nSueldo final: $' + salario_final;
+        return "Los salarios del maestro son: \n\n" + salarios.toString() + "\nSueldo final: $" + salario_final;
+    }
+}
+
+function ej13_alumnosNotas (na) {
+    if (isNaN(na)) {
+        return "Por favor ingresa los datos solicitados"
+    } else {
+        notas = [];
+        for (let i = 1; i <= na; i++) {
+            notas.push(parseFloat(prompt('Ingresa la nota del alumno ' + i)))
+        }
+
+        aprobados = [];
+        desaprobados = [];
+
+        for (let i = 0; i < notas.length; i++) {
+            if (notas[i] < 11) {
+                desaprobados.push(notas[i]);
+            } else {
+                aprobados.push(notas[i]);
+            }
+        }
+
+        return "Hay " + aprobados.length + " alumnos aprobados y " + desaprobados.length + " alumnos desaprobados";
+    }
+}
+
+function ej14_focos (nf) {
+    if (isNaN(nf)) {
+        return "Por favor ingrese los datos solicitados"
+    } else {
+        let focos_verdes
+        let focos_blancos
+        let focos_rojos
+
+        function generarAleatorio(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        for (let i = 0; i < nf; i++) {
+            focos_verdes = generarAleatorio(1, Math.round(nf / 3));
+            focos_blancos = generarAleatorio(focos_verdes, Math.round(nf/2));
+            focos_rojos = nf - (focos_blancos + focos_verdes);
+        }
+
+        return 'En el lote de ' + nf + ' focos, hay ' + focos_verdes + ' verdes, ' + focos_blancos + ' blancos y ' + focos_rojos + ' rojos';
     }
 }
 
